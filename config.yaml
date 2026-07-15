@@ -1,0 +1,29 @@
+# EU Institutions Watch - configuration
+#
+# Add / remove feeds and keywords here. No code changes needed.
+
+keywords:
+  - morocco
+  - maroc
+  - western sahara
+  - sahara occidental
+  - polisario
+  - rabat
+
+feeds:
+  - name: "CJEU (Curia) - Press releases"
+    url: "http://curia.europa.eu/site/rss.jsp?lang=en&secondLang=fr"
+
+  - name: "Council of the EU - Press releases"
+    url: "https://www.consilium.europa.eu/en/rss/pressreleases.ashx"
+
+  - name: "European Commission - Press corner"
+    url: "https://ec.europa.eu/commission/presscorner/api/rss"
+
+  # EUR-Lex RSS alerts are personal/search-based and require an EU Login
+  # account to generate. Create one at https://eur-lex.europa.eu (Advanced
+  # search -> run your query -> "Create in my RSS alerts"), then paste the
+  # resulting URL below. You mentioned already having a Maroc / Western
+  # Sahara EUR-Lex tracker - reuse that feed URL here.
+  - name: "EUR-Lex - Custom search alert"
+    url: "PASTE_YOUR_EURLEX_RSS_ALERT_URL_HERE"
